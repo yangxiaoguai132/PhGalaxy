@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PhGalaxy</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>	
+	<script type="text/javascript" src="js/flash.js"></script>
+</head>
+<body>
+	<header>
+		<span>PhGalaxy</span>
+		<nav>
+			<ul>
+				<li><a href="index.html" class="title">首页</a></li>
+				<li><a href="xuanran.html" class="title">3D渲染图片</a></li>
+				<li><a href="Flash.html" class="title">Flash小动画作品</a></li>
+				<li><a href="about.html" class="title">关于</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="notice">
+		<nav>
+			<ul class="nav nav-pills">
+			   <li><a href="##" class="tips">猫和麻雀的故事</a></li>
+			   <li><a href="##" class="tips">绝望的生鱼片</a></li>
+		    </ul>
+		</nav>
+	</div>
+	<div id="flashAndCtrl">
+		<div id="videocontainer">
+			<video id="video">
+				您的浏览器不支持video元素
+			</video>
+			<div id="tip"></div>
+		</div>
+		<div id="ctrlbuttons">
+			<ul>
+				<li><input id="btnSlow" type="button" class="btn-slow" title="慢放" /></li>
+                <li><input id="btnPlay" type="button" class="btn-play" title="播放"/></li>
+                <li><input id="btnQuick" type="button" class="btn-quick" title="快进"/></li>
+                <li><input id="btnMax" type="button" class="btn-volume-max focus" title="音量"/></li>
+                <li><input id="rngVoice" type="range" class="btn-volume-rng" min="0" value="1" max="1" step="0.1" /></li>
+                <li><input id="btnMin" type="button" class="btn-volume-min" title="静音"/></li>
+			</ul>
+		</div>
+	</div>
+	<footer>
+		<span>PhGalaxy</span>
+	</footer>
+
+</body>
+</body>
+</html>

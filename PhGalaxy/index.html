@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>PhGalaxy</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header>
+		<span>PhGalaxy</span>
+		<nav>
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="xuanran.html">3D渲染图片</a></li>
+				<li><a href="flash.html">Flash小动画作品</a></li>
+				<li><a href="about.html">关于</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article id="home">
+		<h2><b>个人作品简介</b></h2>
+		<section>
+			<p class="intro">本作品集合是我选择已经做过的数字媒体的一部分作品，其中的包括3D渲染的模型图与场景图和Flash小动画视频。其中3D渲染图主要使用了
+               3ds Max建造模型，添加材质并进行渲染，将渲染图用PhotoShop进行最后的图像后期制作。
+               Flash小视频中第一个为原创小故事，是将自己的小想法用flash做出动画，简单的实现出来。第二个是仿制片，在原片的基础上进行模仿制作，并加上了自己的创意，在一些小细节上进行了一些小改动。
+			</p>
+		</section>
+		<section>
+			<p><strong>以下是对作品内容的一些简单的说明:</strong></p>
+			<div>
+				<span><strong>3D渲染图部分</strong></span>
+				<ul>
+					<li>DV机：该DV机首先用3ds Max建造模型，然后添加材质、灯光，并用V-  Ray渲染出模型图，最后用PhotoShop进行修饰，一共选取了6个角度进行展示。</li>
+					<li>阁楼：该阁楼制作过程与DV机相似，选择线模图、白模图、成品图进行展示。</li>
+					<li>摩托车：该摩托车制作过程与DV机相似，选择白模图、线模图、2个角度成品图进行展示。</li>
+					<li>简易楼模型：该楼模型选择了校园中的一个楼进行模型制作，选择5个角度进行展示。</li>
+				</ul>
+			</div>
+			<div>
+				<span><strong>Flash小动画部分</strong></span>
+				<ul>
+					<li>猫和麻雀的故事：运用flash制作猫和麻雀的形象设计，制作最终的动画。</li>
+					<li>绝望的生鱼片：该动画仿制了原版的动画，在原来动画的基础上进行模仿制作，在其中加入了一些自己的小想法。例如片头的心，小萱萱脸上的痦子等等。</li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<p><strong>以下是对作品集合的一些简单的说明:</strong></p>
+			<!-- <p>本作品集合是运用HTML、CSS、JavaScript、Jquery制作的一个简单的作品小集合，实现了一些简单的效果，展示了我制作过的一部分作品。</p> -->
+			<div>
+				<span><strong>3D渲染图部分</strong></span>
+				<ul>
+					<li>get():获取DOM元素</li>
+					<li>addHandler():为元素添加事件</li>
+					<li>highlight():在切换tab的时候，显示不同的背景色。</li>
+					<li>addPic(datam)：通过不同的参数添加不同的图片，data0代表了DV机的图片，data1代表了阁楼的图片，依次类推。datam是一个数组，相关的定义在data.js中。</li>
+					<li>switchPic():点击下面的切换按钮的时候进行图片切换的控制</li>
+					<li>movePictures():将图片实现水平居中效果。</li>
+				</ul>
+			</div>
+			<div>
+				<span><strong>Flash小动画部分</strong></span>
+				<p>使用HTML5的video元素将引入进来，运用jquery来控制视频的播放。</p>
+			</div>
+		</section>
+	</article>
+	<footer>
+		<span>PhGalaxy</span>
+	</footer>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
