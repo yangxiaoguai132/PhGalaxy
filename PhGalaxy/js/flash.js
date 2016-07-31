@@ -100,7 +100,7 @@ $(function(){
     	videocontainer.css("marginLeft",widthinit);
     	flashAndCtrl.css("height","640");
     	ctrlbuttons.css("marginLeft",widthinit);
-    	video.setAttribute("src","video/cat.mp4");
+    	video.setAttribute("src","video/cat.webm");
     });
     $(".tips:last").bind("click", function(){
     	$(this).parent().attr("class","active");
@@ -110,7 +110,7 @@ $(function(){
     	videocontainer.css("marginLeft",widthinit);
     	flashAndCtrl.css("height","460");
     	ctrlbuttons.css("marginLeft",widthinit);
-    	video.setAttribute("src","video/xuanxuan.mp4");
+    	video.setAttribute("src","video/xuanxuan.webm");
 	});
 
 	$("#video").bind("timeupdate", function() {
